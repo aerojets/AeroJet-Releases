@@ -5,17 +5,14 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.3.8
+## Derniere version : v0.3.9
 
-## v0.3.8 — Connexion simulateur
-
-### Nouveautés
-- **Bridge simulateur réécrit** — auto-détection automatique de MSFS ou X-Plane 12 au démarrage
-- **Support X-Plane 12** via protocole UDP RREF natif (aucun plugin requis)
+## v0.3.9 — Connexion simulateur + icônes
 
 ### Corrections
-- Parsing JSON corrigé côté Electron — les données SimConnect ne se perdent plus si un paquet TCP est fragmenté
-- IPC `scan_simulator_ports` ajouté — l'auto-connexion ne bloquait plus silencieusement au démarrage
+- **Connexion MSFS** — Electron spawne maintenant le bridge Rust directement (plus de TCP server sans listener)
+- **Bridge Rust** — JSON invalide corrigé (guillemets simples → doubles), SimConnect se connecte correctement
+- **Icônes avion dans les détails de vol** — passées en bleu (couleur de l'app) au lieu de jaune
 
 
 ---
