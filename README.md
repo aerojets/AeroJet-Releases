@@ -5,7 +5,7 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.4.7
+## Derniere version : v0.4.8
 
 ## v0.4.6 — Charter Board + Landing Report
 
