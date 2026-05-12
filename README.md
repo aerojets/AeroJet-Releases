@@ -5,17 +5,13 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.5.0
+## Derniere version : v0.5.1
 
-## v0.5.0 — Charter Details & Admin Tabs
+## v0.5.1 — Bug fixes
 
-### New Features
-- **Charter Details Panel** — bouton Détails dans chaque contrat ouvre un panneau plein écran avec carte interactive, arc grand-cercle et tous les détails
-- **Jetcard Dispatch** — Accept Charter déclenche une animation de dispatch avant de confirmer le vol
-
-### Improvements
-- **Admin** — page réorganisée en 4 onglets : Overview, Users, Scoring, Appearance
-- **Connections** — champ SimBrief renommé "Pilot ID" avec une meilleure description pour éviter la fenêtre de login
+- AeroJet Dispatch (plus Jetcard)
+- Dispatch : étape Reviewing weather ne bloque plus
+- VATSIM zones : race condition corrigée
 
 
 ---
