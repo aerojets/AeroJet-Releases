@@ -5,13 +5,14 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.5.3
+## Derniere version : v0.5.4
 
-## v0.5.3 — Icônes avions distinctes + zones VATSIM
+## v0.5.4 — Banque AeroJet
 
-- Icônes avions par type : Concorde, militaire, B747/A380, jet d'affaires, régional, narrowbody
-- Zones FIR : grand FIRs (Melbourne, Brisbane...) maintenant visibles quand contrôleur en ligne
-- Cache boundaries VATSIM réduit à 2 min
+- Nouveau : page Banque avec solde, historique des transactions et section prêteurs
+- Charter validé → paiement pilote crédité automatiquement sur le compte
+- Modal de prêt : curseur de montant, taux d'intérêt, simulation hebdomadaire
+- Remboursement de prêts depuis la page Banque
 
 
 ---
