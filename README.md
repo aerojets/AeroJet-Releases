@@ -5,20 +5,17 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.4.9
+## Derniere version : v0.5.0
 
-## v0.4.9 — Flight Scoring & Logbook
+## v0.5.0 — Charter Details & Admin Tabs
 
 ### New Features
-- **Flight Scoring** — score 0–100 calculé automatiquement à chaque vol : pénalités (taxi speed, beacon off, landing lights, stall, overspeed, crash) et bonus (smooth landing, clean flight)
-- **Réputation** — chaque vol impacte la réputation du pilote selon son score
-- **Logbook** — onglet Logbook dans Flights : historique de tous les vols avec score, grade, réputation et détail des violations
-- **Score Modal** — popup de fin de vol avec anneau de score, violations, bonus et delta réputation
-- **Admin** — éditeur des règles de scoring dans la page Admin
+- **Charter Details Panel** — bouton Détails dans chaque contrat ouvre un panneau plein écran avec carte interactive, arc grand-cercle et tous les détails
+- **Jetcard Dispatch** — Accept Charter déclenche une animation de dispatch avant de confirmer le vol
 
-### Fixes
-- **Charter Board** — distances réelles calculées en Haversine à partir des coordonnées GPS des aéroports (LSGG→RKSI affiche maintenant ~5 000 NM au lieu de 586 NM)
-- **Charter Board** — type d'avion sélectionné selon la vraie distance de la route
+### Improvements
+- **Admin** — page réorganisée en 4 onglets : Overview, Users, Scoring, Appearance
+- **Connections** — champ SimBrief renommé "Pilot ID" avec une meilleure description pour éviter la fenêtre de login
 
 
 ---
