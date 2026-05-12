@@ -5,7 +5,15 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.6.3
+## Derniere version : v0.6.4
+
+## v0.6.4 — Intégration IVAO
+
+- Trafic live IVAO sur la carte (avions bleu foncé `#3B82F6`, visibles sur fond noir)
+- Stations ATC IVAO : points verts pour les tours/sol/ATIS
+- Positions Approach & Center IVAO : orange pour APP, bleu AeroJet pour CTR/FSS
+- Section IVAO dans le panneau Layers avec 3 toggles et compteurs live
+- Données exclusivement issues de l'API IVAO Whazzup v2
 
 ## v0.6.3 — Fix icône Windows
 
