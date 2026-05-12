@@ -5,14 +5,14 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.5.4
+## Derniere version : v0.5.5
 
-## v0.5.4 — Banque AeroJet
+## v0.5.5 — Rapport de vol complet + validation charter
 
-- Nouveau : page Banque avec solde, historique des transactions et section prêteurs
-- Charter validé → paiement pilote crédité automatiquement sur le compte
-- Modal de prêt : curseur de montant, taux d'intérêt, simulation hebdomadaire
-- Remboursement de prêts depuis la page Banque
+- Rapport de vol redessiné : score par catégorie, violations, bonus, récapitulatif réputation
+- Charter validé uniquement si score ≥ 50 et pas de crash (validation automatique)
+- Section charter dans le rapport : paiement crédité ou refusé avec explication
+- Stats atterrissage : fpm, vitesse sol, G-force
 
 
 ---
