@@ -5,21 +5,12 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.4.0
+## Derniere version : v0.4.1
 
-## v0.4.0 — Tracé de vol + événements sur la carte
+## v0.4.1 — Fix avion utilisateur visible
 
-### Nouveautés
-- **Tracé de vol complet** — visible sur la carte dès la connexion au simulateur, du gate au gate
-- **Événements sur le tracé** avec points colorés :
-  - 🟠 Flaps (changement de position)
-  - 🟢 Train d'atterrissage (up/down)
-  - 🟡 Lumières (landing, strobe, beacon, nav, taxi)
-  - 🔵 10 000 ft (montée et descente)
-  - 🔴 Stall warning / Overspeed 250kt < 10 000 ft
-  - 🟣 Moteur (start / cut)
-  - 🔵 Radios COM1 / COM2 (changement de fréquence)
-- **Couleur unique** pour l'avion utilisateur — bleu (#7AB1E0), distinct des avions VATSIM verts
+### Corrections
+- **Avion utilisateur maintenant visible** — l'icône `aircraft-generic` n'était jamais enregistrée dans MapLibre (avion invisible malgré la connexion sim). Remplacée par un SVG inline en SDF, bleu (#7AB1E0), distinct des avions VATSIM.
 
 
 ---
