@@ -5,15 +5,13 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.5.2
+## Derniere version : v0.5.3
 
-## v0.5.2 — Charter Board improvements
+## v0.5.3 — Icônes avions distinctes + zones VATSIM
 
-- Near Me : filtre uniquement les départs depuis l'aéroport connecté
-- Détails charter : impossible d'accepter sans SimBrief configuré (avertissement affiché)
-- Détails charter : carte recentrée sur le trajet DEP→ARR
-- Détails charter : textes plus lisibles (meilleur contraste)
-- Bouton SimBrief supprimé des lignes (plan créé automatiquement au dispatch)
+- Icônes avions par type : Concorde, militaire, B747/A380, jet d'affaires, régional, narrowbody
+- Zones FIR : grand FIRs (Melbourne, Brisbane...) maintenant visibles quand contrôleur en ligne
+- Cache boundaries VATSIM réduit à 2 min
 
 
 ---
