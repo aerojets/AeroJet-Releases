@@ -5,12 +5,12 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.4.2
+## Derniere version : v0.4.3
 
-## v0.4.2 — Icône avion utilisateur
+## v0.4.3 — Fix avion utilisateur garanti visible
 
-### Améliorations
-- **Icône avion** — vrai plan vue de dessus (fuselage + ailes + empennage) au lieu du triangle précédent
+### Corrections
+- **Avion utilisateur enfin fiable** — l'approche symbol layer MapLibre dépendait d'une image chargée de façon asynchrone. Remplacé par un `Marker` HTML pur : toujours visible dès la connexion sim, icône avion vue de dessus + label altitude/vitesse.
 
 
 ---
