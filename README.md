@@ -5,7 +5,7 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.4.4
+## Derniere version : v0.4.5
 
 ## v0.4.4 — Avion utilisateur enfin stable
 
