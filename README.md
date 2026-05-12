@@ -5,16 +5,20 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.4.8
+## Derniere version : v0.4.9
 
-## v0.4.6 — Charter Board + Landing Report
+## v0.4.9 — Flight Scoring & Logbook
 
-### Nouveautés
-- **Charter Board** — onglet Charters dans la barre gauche : marché de contrats avec filtre par catégorie (PRIVATE/CORPORATE/GOVERNMENT/CARGO), tri par valeur/distance/PAX/expiration, favoris, recherche. Cliquez sur un contrat pour l'étendre et ouvrir directement SimBrief avec DEP/ARR pré-remplis.
-- **Rapport d'atterrissage** — popup automatique à chaque touchdown : FPM, GS, G-Force avec classification (Smooth / Good / Hard / CRASH). Disparaît après 12 secondes.
+### New Features
+- **Flight Scoring** — score 0–100 calculé automatiquement à chaque vol : pénalités (taxi speed, beacon off, landing lights, stall, overspeed, crash) et bonus (smooth landing, clean flight)
+- **Réputation** — chaque vol impacte la réputation du pilote selon son score
+- **Logbook** — onglet Logbook dans Flights : historique de tous les vols avec score, grade, réputation et détail des violations
+- **Score Modal** — popup de fin de vol avec anneau de score, violations, bonus et delta réputation
+- **Admin** — éditeur des règles de scoring dans la page Admin
 
-### Améliorations
-- Suppression de la carte "Start Tracking" sur la map — plus propre.
+### Fixes
+- **Charter Board** — distances réelles calculées en Haversine à partir des coordonnées GPS des aéroports (LSGG→RKSI affiche maintenant ~5 000 NM au lieu de 586 NM)
+- **Charter Board** — type d'avion sélectionné selon la vraie distance de la route
 
 
 ---
