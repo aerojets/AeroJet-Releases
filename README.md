@@ -5,12 +5,13 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.4.3
+## Derniere version : v0.4.4
 
-## v0.4.3 — Fix avion utilisateur garanti visible
+## v0.4.4 — Avion utilisateur enfin stable
 
 ### Corrections
-- **Avion utilisateur enfin fiable** — l'approche symbol layer MapLibre dépendait d'une image chargée de façon asynchrone. Remplacé par un `Marker` HTML pur : toujours visible dès la connexion sim, icône avion vue de dessus + label altitude/vitesse.
+- **Cycle de reconnexion corrigé** — le heartbeat n'était jamais mis à jour lors de la réception des snapshots simulateur, ce qui provoquait une fausse déconnexion toutes les 15s et masquait l'avion sur la carte.
+- **Erreur MapLibre vatsim-stations corrigée** — une expression `zoom` imbriquée dans un `case` forçait MapLibre à reconstruire le style entier à chaque mise à jour VATSIM, bloquant l'affichage de l'avion.
 
 
 ---
