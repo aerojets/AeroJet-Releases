@@ -5,12 +5,13 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.3.3
+## Derniere version : v0.3.4
 
-## v0.3.3 — Icône bleue
+## v0.3.4 — Correction auto-updater
 
-### Améliorations
-- **Nouvelle icône** — logo AeroJet bleu sur le raccourci bureau et dans la barre des tâches Windows
+### Corrections
+- **Auto-updater corrigé** — le repo de releases pointait encore vers l'ancien compte GitHub, les mises à jour automatiques n'étaient pas détectées
+- **Bouton "Check now"** — déclenche maintenant réellement la vérification de mise à jour depuis App Information
 
 
 ---
