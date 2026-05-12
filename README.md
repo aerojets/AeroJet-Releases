@@ -5,15 +5,12 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.3.2
+## Derniere version : v0.3.3
 
-## v0.3.2 — Auto-updater
-
-### Nouveautés
-- **Auto-updater opérationnel** — l'application détecte et installe les nouvelles versions automatiquement, sans aucune action de votre part
+## v0.3.3 — Icône bleue
 
 ### Améliorations
-- Migration du repo de releases vers le compte `aerojets` — les mises à jour automatiques pointent désormais vers le bon dépôt
+- **Nouvelle icône** — logo AeroJet bleu sur le raccourci bureau et dans la barre des tâches Windows
 
 
 ---
