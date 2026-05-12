@@ -5,12 +5,17 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.3.7
+## Derniere version : v0.3.8
 
-## v0.3.7 — Icône raccourci corrigée
+## v0.3.8 — Connexion simulateur
+
+### Nouveautés
+- **Bridge simulateur réécrit** — auto-détection automatique de MSFS ou X-Plane 12 au démarrage
+- **Support X-Plane 12** via protocole UDP RREF natif (aucun plugin requis)
 
 ### Corrections
-- **Icône bureau** — fichier .ico multi-taille (16/32/48/64/128/256px) pour un rendu net à toutes les tailles Windows
+- Parsing JSON corrigé côté Electron — les données SimConnect ne se perdent plus si un paquet TCP est fragmenté
+- IPC `scan_simulator_ports` ajouté — l'auto-connexion ne bloquait plus silencieusement au démarrage
 
 
 ---
