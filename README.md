@@ -5,13 +5,16 @@ Les mises a jour suivantes sont automatiques et silencieuses.
 
 ---
 
-## Derniere version : v0.4.5
+## Derniere version : v0.4.6
 
-## v0.4.4 — Avion utilisateur enfin stable
+## v0.4.6 — Charter Board + Landing Report
 
-### Corrections
-- **Cycle de reconnexion corrigé** — le heartbeat n'était jamais mis à jour lors de la réception des snapshots simulateur, ce qui provoquait une fausse déconnexion toutes les 15s et masquait l'avion sur la carte.
-- **Erreur MapLibre vatsim-stations corrigée** — une expression `zoom` imbriquée dans un `case` forçait MapLibre à reconstruire le style entier à chaque mise à jour VATSIM, bloquant l'affichage de l'avion.
+### Nouveautés
+- **Charter Board** — onglet Charters dans la barre gauche : marché de contrats avec filtre par catégorie (PRIVATE/CORPORATE/GOVERNMENT/CARGO), tri par valeur/distance/PAX/expiration, favoris, recherche. Cliquez sur un contrat pour l'étendre et ouvrir directement SimBrief avec DEP/ARR pré-remplis.
+- **Rapport d'atterrissage** — popup automatique à chaque touchdown : FPM, GS, G-Force avec classification (Smooth / Good / Hard / CRASH). Disparaît après 12 secondes.
+
+### Améliorations
+- Suppression de la carte "Start Tracking" sur la map — plus propre.
 
 
 ---
